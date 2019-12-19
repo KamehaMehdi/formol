@@ -1,0 +1,32 @@
+{
+    "logo": "image path + image",
+    "description": "md",
+    "information": "string",
+    "questions":[
+            {
+                "question": "string",
+                "metric": "one",
+                "answer": "number",
+                "?startLabel": "text",
+                "?endLabel":"text"
+            },
+            {
+                "question":"string",
+                "metric":"multiple",
+                "fields": [
+                    {
+                        "question":"string",
+                        "metric":"one",
+                        "answer":"number",
+                        "?startLabel": "text",
+                        "?endLabel":"text"
+                    }
+                ]
+            },
+            {
+                "question":"string",
+                "metric":"text",
+                "answer":"text"
+            }
+        ]
+}
